@@ -13,9 +13,9 @@
         if ( email == arrayAccesso[i] ){
             console.log(email , arrayAccesso[i])
             document.getElementById("msg_appropriato").innerHTML = `<div class= "green">Accesso consentito tramite mail: <span class= "blue">"${email}"</span>  al server Boolean.</div>`;
-        } else  {
+        } else if ( email != arrayAccesso[i] ) {
             console.log(email , arrayAccesso[i])
-            document.getElementById("msg_appropriato").innerHTML = `<div class="red">Accesso non consentito tramite mail: <span class= "blue">"${email}"</span> al server Boolean, la SWAT è in viaggio verso casa sua.</div>`;          
+            document.getElementById("msg_inappropriato").innerHTML = `<div class="red">Accesso non consentito tramite mail: <span class= "blue">"${email}"</span> al server Boolean, la SWAT è in viaggio verso casa sua.</div>`;          
         }
       
       }
