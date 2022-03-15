@@ -22,13 +22,12 @@ for ( i = (arrayIo.length - 1); i>3; i-- ){
 //   Extra Bonus
 
 let elementi = prompt("Quanti elementi dovrà contenere l'array ?");
-let arrayPrompt = [i];
+let arrayPrompt = [];
 arrayPrompt.lenght = elementi;
 console.log(arrayPrompt)
 
-for ( i = (elementi); i<arrayPrompt.lenght; i++ ){
-    arrayPrompt[i]= i + 1; 
+for ( i = 0; i<elementi; i++ ){
+    arrayPrompt.push(Math.random()) 
     document.getElementById("elementi_prompt").innerHTML += `<div>${arrayPrompt[i]}</div>`;
     console.log(arrayPrompt[i])
   }
-
