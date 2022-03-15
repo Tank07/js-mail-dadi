@@ -13,3 +13,14 @@
 // 3. si ma noi cosa vogliamo fare?
 // 4. torniamo a scrivere in italiano
 // 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+
+
+// Bonus 1
+
+let arrayIo = [1,2,3,4,5,6,7,8,9]
+console.log(arrayIo)
+
+for ( i = (arrayIo.length - 1); i>3; i-- ){
+    document.getElementById("ultimi_cinque").innerHTML += `<div>${arrayIo[i]}</div>`;
+    console.log(arrayIo[i])
+  }
