@@ -27,7 +27,7 @@ arrayPrompt.lenght = elementi;
 console.log(arrayPrompt)
 
 for ( i = 0; i<elementi; i++ ){
-    arrayPrompt.push(Math.random()) 
-    document.getElementById("elementi_prompt").innerHTML += `<div>${arrayPrompt[i]}</div>`;
-    console.log(arrayPrompt[i])
+    arrayPrompt.push(Math.floor(Math.random()* 100))
+    document.getElementById("elementi_prompt").innerHTML += `<div> <span class="blue">${[i]})</span> ${arrayPrompt[i]}</div>`;
+    console.log([i],arrayPrompt[i])
   }
