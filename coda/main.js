@@ -21,12 +21,28 @@ for ( i = (arrayIo.length - 1); i>3; i-- ){
 
 //   Extra Bonus
 
+// let elementi = prompt("Quanti elementi dovrà contenere l'array ?");
+// let arrayPrompt = [];
+// arrayPrompt.lenght = elementi;
+// console.log(arrayPrompt)
+
+// for ( i = 0; i<elementi; i++ ){
+//     arrayPrompt.push(Math.floor(Math.random()* 100))
+//     document.getElementById("elementi_prompt").innerHTML += `<div> <span class="blue">${[i]})</span> ${arrayPrompt[i]}</div>`;
+//     console.log([i],arrayPrompt[i])
+//   }
+
+  // Super Extra Bonus
+
 let elementi = prompt("Quanti elementi dovrà contenere l'array ?");
+let daEstrarre = prompt("Quanti elementi dovri estrarre dal fondo dell'array ?");
+let estratti = elementi - daEstrarre;
+console.log(estratti)
 let arrayPrompt = [];
 arrayPrompt.lenght = elementi;
 console.log(arrayPrompt)
 
-for ( i = 0; i<elementi; i++ ){
+for ( i = (elementi - 1); i>estratti; i-- ){
     arrayPrompt.push(Math.floor(Math.random()* 100))
     document.getElementById("elementi_prompt").innerHTML += `<div> <span class="blue">${[i]})</span> ${arrayPrompt[i]}</div>`;
     console.log([i],arrayPrompt[i])
