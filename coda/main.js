@@ -26,3 +26,8 @@ let arrayPrompt = [];
 arrayPrompt.lenght = elementi;
 console.log(arrayPrompt)
 
+for ( i = (elementi); i<arrayPrompt.lenght; i++ ){
+    document.getElementById("elementi_prompt").innerHTML += `<div>${arrayPrompt[i]}</div>`;
+    console.log(arrayPrompt[i])
+  }
+
