@@ -19,3 +19,5 @@ if (numeroUtente > numeroComputer) {
         console.log(numeroUtente, numeroComputer);
         document.getElementById("esito").innerHTML = `<div>Si è verificato un pareggio essendo <span>"${numeroUtente}"</span> , e <span>"${numeroComputer}"</span> lo stesso numero </div>`;
 }
+
+// Ma bisognava farlo tramite un Array ?
