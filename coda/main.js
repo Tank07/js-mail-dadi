@@ -14,12 +14,12 @@
 let arrayIo = [1,2,3,4,5,6,7,8,9]
 console.log(arrayIo)
 
-for ( i = (arrayIo.length - 1); i>3; i-- ){
+for ( i = (arrayIo.length - 1); i>(arrayIo.length - 6); i-- ){
     document.getElementById("ultimi_cinque").innerHTML += `<div>${arrayIo[i]}</div>`;
     console.log(arrayIo[i])
   }
 
-  // Non finito bonus, scordato due variabili
+  // Non finito bonus, scordato min lenght array
 
 //   Extra Bonus
 
