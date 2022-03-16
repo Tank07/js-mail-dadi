@@ -19,6 +19,8 @@ for ( i = (arrayIo.length - 1); i>3; i-- ){
     console.log(arrayIo[i])
   }
 
+  // Non finito bonus, scordato due variabili
+
 //   Extra Bonus
 
   let elementi = prompt("Quanti elementi dovrà contenere l'array (Extra Bonus)?");
